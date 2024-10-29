@@ -1,0 +1,34 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+##Quels indicateurs métriques sont utilisés pour estimer l’obésité ? 
+
+Le premier indicateur métrique c’est le pourcentage c’est à dire le taux de croissance moyen pour les adultes en général, les adultes selon la région, les adultes selon le sexe, les adultes selon l’éducation et les adultes selon les revenus. Tout ça en Belgique de 1997 à 2018.  
+
+Voici un exemple de taux de croissance moyen de l’obésité en pourcentage en belgique pour les adultes.
+
+knitr::include_graphics("IMAGE1.png")
+
+Le deuxième indicateur métrique c’est l’IMC (indice de masse corporelle), c’est un calcul qui permet d’estimer la corpulence d’une personne, il est utilisé par les médecins pour évaluer le risque de développer certaines maladies lés au surpoids. L’IMC se mesure en Kg/m2 donc le poids divisé par la taille. 
+
+Voici les différentes catégories d’IMC validées par les organismes officiels de santé :
+
+Poids insuffisant/maigreur = <18,5 ; 
+
+Poids normal = 18,5-24,9 ; 
+
+Surpoids = 25-29,9 ; 
+
+Obésité = 30 ou plus. 
+
+Le troisième indicateur métrique c’est le tour de taille qui est important pour prévenir le risque cardiovasculaire et métabolique, il permet d’évaluer la quantité de graisse viscérale. L’ICM n’est pas souvent suffisant pour prévenir certaines maladies voilà pourquoi on mesure le tour de taille. 
+
+Poids santé (IMC 18,5 - 24,9). Tour de taille < 80 cm (femmes) ou 90 cm (hommes). 
+
+Surpoids (IMC 25 - 29,9). Tour de taille < 90 cm (femmes) ou 100 cm (hommes). 
+
+Obésité 1 (IMC 30 - 34,9). Tour de taille < 105 cm (femmes) ou 110 cm (hommes). 
+
+Obésité 2 (IMC 35 ou plus). Tour de taille < 115 cm (femmes) ou 125 cm (hommes). 
